@@ -1,0 +1,27 @@
+branca==0.8.2
+certifi==2026.10.23
+charset-normalizer==3.5.2
+duckdb==2.0.0
+folium==0.20.0
+h3==4.5.0
+idna==3.20
+iniconfig==2.3.1
+Jinja2==3.1.6
+MarkupSafe==3.0.4
+networkx==3.7
+numpy==2.5.4
+packaging==26.3
+pandas==3.1.0
+pluggy==1.7.0
+pyarrow==26.0.0
+Pygments==2.21.0
+pytest==9.1.1
+python-dateutil==3.0.0
+requests==2.34.2
+ruff==0.17.2
+-e git+https://github.com/TuanD-Tran/15-minute-saigon.git@1ef2d802c6c7b5049ad42a3166a89880e1a2df89#egg=saigon15
+scipy==1.18.1
+six==1.17.0
+tzdata==2026.5
+urllib3==2.8.0
+xyzservices==2026.9.1
