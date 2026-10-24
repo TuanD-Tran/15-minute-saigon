@@ -1,0 +1,24 @@
+{
+  "downloaded_on": "2026-10-24",
+  "bbox": [
+    10.765,
+    106.685,
+    10.795,
+    106.715
+  ],
+  "source": "https://overpass-api.de/api/interpreter",
+  "files": [
+    {
+      "file": "data/raw/pois.json",
+      "sha256": "181c51cf776c7129e2258da3459472ffd607cd081891d14b6a33cfa2ef58bde7",
+      "osm_base_timestamp": "2026-10-24T14:02:35Z",
+      "n_elements": 439
+    },
+    {
+      "file": "data/raw/roads.json",
+      "sha256": "0e4861c652e50bf5acde6cddb433a6dac0b04d6b8095a7911a0d12ad42e2ce44",
+      "osm_base_timestamp": "2026-10-24T14:03:36Z",
+      "n_elements": 4569
+    }
+  ]
+}
