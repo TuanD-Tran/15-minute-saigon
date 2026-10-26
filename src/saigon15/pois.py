@@ -6,6 +6,7 @@ import h3
 import pandas as pd
 
 from saigon15.config import H3_RES
+from saigon15.dedup import merge_duplicates
 from saigon15.osm_rules import classify
 
 
@@ -37,7 +38,8 @@ def load_pois(path: str = "data/raw/pois.json") -> pd.DataFrame:
 
 
 if __name__ == "__main__":
+    raw = load_pois()
+    df, stats = merge_duplicates(raw)
     out = Path("data/processed/poi_snapshot.parquet")
-    df = load_pois()
     df.to_parquet(out, index=False)
-    print(f"{len(df)} points saved to {out}")
+    print(stats)
