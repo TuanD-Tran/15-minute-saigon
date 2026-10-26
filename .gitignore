@@ -224,3 +224,5 @@ __marimo__/
 # Project Specific Data
 data/raw/*
 !data/raw/.gitkeep
+data/processed/*.parquet
+!data/processed/.gitkeep
