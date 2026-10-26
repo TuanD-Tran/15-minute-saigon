@@ -4,3 +4,4 @@ H3_RES = 9
 WALK_SPEED_MPS = 4.8 / 3.6  # 4,8 km/h
 CUTOFF_S = 15 * 60
 CATEGORIES = ["bus_stop", "school", "health", "park", "market"]
+DEDUP_THRESHOLD_M = 50
