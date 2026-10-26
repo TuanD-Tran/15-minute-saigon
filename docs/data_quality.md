@@ -29,7 +29,7 @@ Ngày chạy: 2026-10-26 | Nguồn: Overpass, vùng mẫu (xem data/source_log.j
 
 ## Nhận Xét
 
-- **Sự tập trung của dữ liệu trùng lặp: Hiện tượng trùng lặp dữ liệu chỉ xảy ra duy nhất ở nhóm `bus_stop` với 39 điểm bị gộp (chiếm 15.9%). Các nhóm còn lại (`health`, `market`, `park`, `school`) hoàn toàn không ghi nhận điểm trùng lặp nào ở ngưỡng 50 m.
+- Sự tập trung của dữ liệu trùng lặp: Hiện tượng trùng lặp dữ liệu chỉ xảy ra duy nhất ở nhóm `bus_stop` với 39 điểm bị gộp (chiếm 15.9%). Các nhóm còn lại (`health`, `market`, `park`, `school`) hoàn toàn không ghi nhận điểm trùng lặp nào ở ngưỡng 50 m.
 - Tác động của dữ liệu bị thiếu tên: Nhóm `park` ghi nhận lượng lớn điểm không có tên (57/84 điểm), khiến các thuật toán gộp không thể tiếp cận và xử lý theo quy tắc hiện tại, tiềm ẩn nguy cơ bỏ sót các khu vực công viên/mảng xanh bị khai báo trùng.
 - Độ nhạy khoảng cách ổn định: Số lượng điểm gộp tăng đều đặn khi mở rộng ngưỡng. Điều này phản ánh khoảng cách phân bố thực tế của các trạm xe buýt thường nằm sát nhau (dưới 50 m), phù hợp với thực tế hạ tầng giao thông đô thị.
 
