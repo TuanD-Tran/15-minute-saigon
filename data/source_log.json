@@ -1,5 +1,5 @@
 {
-  "downloaded_on": "2026-10-24",
+  "downloaded_on": "2026-11-01",
   "bbox": [
     10.765,
     106.685,
@@ -10,14 +10,14 @@
   "files": [
     {
       "file": "data/raw/pois.json",
-      "sha256": "181c51cf776c7129e2258da3459472ffd607cd081891d14b6a33cfa2ef58bde7",
-      "osm_base_timestamp": "2026-10-24T14:02:35Z",
-      "n_elements": 439
+      "sha256": "e9907978ce4777d618ea39bfb57c980232bd05d193e164b24d230ff169f07a86",
+      "osm_base_timestamp": "2026-11-01T01:37:04Z",
+      "n_elements": 438
     },
     {
       "file": "data/raw/roads.json",
-      "sha256": "0e4861c652e50bf5acde6cddb433a6dac0b04d6b8095a7911a0d12ad42e2ce44",
-      "osm_base_timestamp": "2026-10-24T14:03:36Z",
+      "sha256": "ac34f9a1abe5827971e8471c77ea1c2e00fd6a28586a0a34b257f94ec1daebd7",
+      "osm_base_timestamp": "2026-11-01T01:38:04Z",
       "n_elements": 4569
     }
   ]

@@ -23,7 +23,7 @@ out center tags;"""
 
 ROAD_QUERY = f"""[out:json][timeout:180];
 way["highway"]({B});
-out geom tags;"""
+out geom;"""
 
 
 def fetch(name: str, query: str, retries: int = 3) -> dict:
